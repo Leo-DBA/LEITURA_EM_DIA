@@ -1,0 +1,57 @@
+
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    
+    }
+  .box{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    padding: 10px;
+    border-radius: 15px;
+    font-size: 12px;
+    text-align: center;
+    background-color: #d0d0d0;
+    width: 30%;
+  }
+  fieldset{
+    border: 3px solid orange;
+    border-radius: 15px;
+  }
+  legend{
+    border: 1px solid orange;
+    padding: 10px;
+    text-align: center;
+    background-image: linear-gradient(45deg, #ff2500, #ff7100);
+    border-radius: 8px;
+    color: white;
+  }
+  .inputBox{
+        position: relative;
+  }
+  
+  .data_nascimento{
+    border: none;
+    padding: 8px;
+    border-radius: 10px;
+    outline: none;
+    font-size: 15px;
+  }
+  #submit{
+    background-image: linear-gradient(45deg, #e7472b, #ee8026);
+    color: white;
+    border-bottom: 18px;
+    border: none;
+    width: 100%;
+    padding: 15px;
+    border-radius: 10px;
+
+
+  }
+  #submit:hover{
+    background-image: linear-gradient(45deg, #ee5b41, #f38c37);
+    cursor: pointer;
+} 
+
+

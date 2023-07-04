@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<link rel="stylesheet" href="style cadastro.css">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Faça seu cadastro</title>
+</head>
+<body>
+    <div class="box">
+        <form action="http://localhost:8800/cadastro" method="post">
+            <fieldset>
+                <legend><b>Cadastro</b></legend>
+                <br>
+                <div class="inputbox">
+                    <label for="Nome_Completo">Nome completo:</label>
+                    <input type="text" name="Nome_Completo" id="Nome_Completo" class="inputUser" required>
+                    
+                </div>
+                <br>
+                <div class="inputbox">
+                    <label for="email" class="labelInput">E-mail:</label>
+                    <input type="email" name="email" id="email" class="inputUser" required>
+                    
+                </div>
+                <br>
+                <p>Sexo:</p>
+                <input type="radio" id="feminino" name="sexo" value="F" required>
+                <label for="feminino" class="labelInput">Feminino</label>
+                <input type="radio" id="masculino" name="sexo" value="M" required>
+                <label for="masculino" class="labelInput">Masculino</label>
+                <br><br>
+                <div class="inputbox">
+                    <label for="dt_nascimento" class="labelInput"><b>Data de nascimento:</b></label>
+                    <input type="date" name="dt_nascimento" id="dt_nascimento" class="inputUser" required>
+                </div>
+                <br>
+                <div class="inputbox">
+                    <label for="senha" class="labelInput">Senha:</label>
+                    <input type="password" name="senha" id="senha" class="inputUser" required>
+                </div>
+                <br>
+                <div class="inputbox">
+                    <label for="senha" >Confirme sua senha:</label>
+                    <input type="password" name="confirmsenha" id="confirmsenha" class="inputUser" required>
+                </div>
+                    <br>
+                <input type="submit" name="submit" id="submit">    
+
+            </fieldset>
+        </form>
+    </div>
+</body>
+</html>
